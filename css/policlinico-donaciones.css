@@ -1,0 +1,49 @@
+/**{outline: 1px solid red;}*/
+section.titulo-general{
+  color: #4394a3;
+  font-weight: bold;
+  padding:  70px 0 90px;
+  background: url(../img/donacion-titulo6.jpg);
+  text-decoration: underline;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+section.titulo-general i,
+.titulo .titulo2 i{
+  font-size: 40px;
+  margin-right: 15px;
+}
+section.titulo-general h1,
+.titulo h3{
+  display: inline-block;
+}
+section.content{
+  margin: 70px 0;
+}
+.campañas a.lista-campaña{
+  text-decoration: none;
+  color: #505050;
+}
+.titulo{
+  /*background: rgb(67,148,168);*/
+/*  border-bottom: 1px solid rgba(67,148,168,.1);
+  border-top: 1px solid rgba(67,148,168,.1);*/
+  color: /*#4394a3*/ #fff;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.titulo2{
+   background: linear-gradient( to top, #4394a3, #ffffff); 
+   /*background-opacity: .5;*/
+   padding: 15px 0;
+
+}
+.donaciones .panel-heading{
+  background: #4394a3;
+}
+.donaciones .panel-heading a{
+  text-decoration: none;
+  color: #fff;
+}

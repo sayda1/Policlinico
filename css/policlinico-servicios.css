@@ -1,0 +1,200 @@
+/**{outline: 1px solid red;}*/
+section.titulo-general{
+  color: #4394a3;
+  font-weight: bold;
+  padding:  70px 0 90px;
+  background: url(../img/fondo-tituloservicio3.jpg);
+  text-decoration: underline;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+section.titulo-general i,
+.titulo .titulo2 i{
+  font-size: 40px;
+  margin-right: 15px;
+}
+section.titulo-general h1,
+.titulo h3{
+  display: inline-block;
+}
+section.content{
+  margin: 70px 0;
+}
+.campañas a.lista-campaña{
+  text-decoration: none;
+  color: #505050;
+}
+.titulo{
+  color: /*#4394a3*/ #fff;
+  font-weight: bold;
+  padding: 3px 0;
+  /*margin: 70px auto;*/
+}
+
+.titulo2{
+   background: linear-gradient( to top, #4394a3, #ffffff); 
+   /*background-opacity: .5;*/
+   padding: 15px 0;
+
+}
+.content-servicios .titulo{
+  margin: 70px auto;
+}
+.content-servicios .servicios span{
+    position: absolute;
+    margin: 15px auto;
+    padding: 10px 0;
+    background: rgba(255,255,255,.7);
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4394a3;
+}
+
+.servicios .modal-dialog {
+  width: 900px;
+}
+.servicios .modal-wide .modal-body {
+  overflow-y: auto;
+}
+.servicios .modal .modal-header{
+  background: #43baac;
+  color: #fff;
+  font-weight: 900;
+}
+.servicios .modal-header .close{
+  opacity: .9;
+  color: #fff;
+}
+.servicios .modal-title{
+  font-weight: initial;
+  text-transform: uppercase;
+}
+.servicios .modal-body h4{
+  color: #43baac;
+  font-weight: lighter;
+}
+.servicios .modal-body p{
+  margin: 20px auto;
+  text-align: justify;
+  line-height: 25px;
+}
+.servicios .modal-body .dia{
+  margin: 0 auto 0;
+  background-color: #43baac;
+  color: #fff;
+  border-radius: 20px;
+}
+.servicios .modal-body .dia .col-md-4{
+  padding: 0;
+}
+.servicios .modal-body .dia p{
+  padding: 0;
+  margin: 9px auto;
+}
+.servicios .modal-body .dia .col-md-8{
+  font-size: 12px;
+}
+.servicios .modal-body .dia .col-md-8 ul{
+  margin: 4px auto;
+}
+.servicios .modal-footer{
+  border-top: none;
+  margin: 0;
+  padding: 0;
+}
+.snip1523 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.snip1523 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1523 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1523 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 40% 0;
+  background-color: #43baac;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.snip1523 h2,
+.snip1523 h3,
+.snip1523 p {
+  margin: 0;
+}
+
+.snip1523 h2,
+.snip1523 h3 {
+  /*font-family: 'Slabo 27px', serif;*/
+  line-height: 1.2em;
+}
+
+.snip1523 h2 {
+  font-size: 1.9em;
+  color: #35ADF9;
+}
+
+.snip1523 h3 {
+  color: #EBEBEB;
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.snip1523 p {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9em;
+  margin-top: 12px;
+  padding: 12px 0 15px;
+  line-height: 1.5em;
+}
+
+.snip1523 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1523:hover > img,
+.snip1523.hover > img {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.snip1523:hover figcaption,
+.snip1523.hover figcaption {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
