@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 body{
     /*background: #f7f7f7;*/
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Bad+Script', sans-serif;
 
 }
-.header,
+.header{
+    background-image: url(../img/cabecera.jpg);
+    background-position: center;
+}
 /*.container{
     background: #fff;
 }*/
@@ -298,12 +301,6 @@ hr{
     -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
-
-
-
-
-
-
 /*------------------------------------------------------*/
 /* RESPONSIVE
 /*------------------------------------------------------*/
@@ -315,12 +312,9 @@ hr{
         margin-bottom: 20px;
     }
     .slide-text > p {
-
         font-size: 18px;
     }
 }
-
-
 /*---------- MEDIA 480px ----------*/
 @media  (max-width: 768px) {
     .slide-text {
@@ -393,10 +387,12 @@ hr{
   width: auto;
   display: inline-block;
   margin-left: 10px;
-  color: #505050;
+  color: #ffffff;
+    font-size: 15px;
 }
+
 .header .contacto-header i{
-    color: #4394a3;
+    color: #ffffff;
     font-size: 30px;
     margin: 3px 0 5px;
     text-align: center;
@@ -421,7 +417,7 @@ hr{
 /*----------------------------*/
 /*           menu             */
 /*----------------------------*/
-.header2{background: #4394a3;}
+.header2{background: #5bcde2;}
 #wrapper {
   position: relative;
 }
@@ -446,7 +442,7 @@ hr{
 */
 /* Defaut link style */
 #access a, #access #menu a, #menu li a {
-  background-color: #4394a3;
+  background-color: #5bcde2;
   display: block;
   color: #fff;
   text-decoration: none;
