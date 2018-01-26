@@ -204,9 +204,6 @@ hr{
     -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
-
-
-
 /*---------- SLIDE CAPTION ----------*/
 .slide_style_left {
     text-align: left !important;
@@ -217,7 +214,6 @@ hr{
 .slide_style_center {
     text-align: center !important;
 }
-
 .slide-text {
     left: 0;
     top: 25%;
@@ -227,9 +223,7 @@ hr{
     position: absolute;
     text-align: left;
     padding: 10px 85px;
-    
 }
-
 .slide-text > h1 {
     
     padding: 0;
@@ -399,7 +393,6 @@ hr{
 }
 .header .contacto-header .redes{
   text-align: center;
- 
 }
 .header .redes i{
     margin: 20px 5px;
@@ -432,7 +425,6 @@ hr{
 #access:after {
   clear: both;
 }
-
 /*
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -444,9 +436,11 @@ hr{
 #access a, #access #menu a, #menu li a {
   background-color: #5bcde2;
   display: block;
-  color: #fff;
+  color: #38156c;
   text-decoration: none;
   padding: 1em;
+  font-weight: bold;
+  font-size: 17px;
 /*  -webkit-transition: -webkit-transform 500ms linear, box-shadow 500ms ease-in, background-color 250ms ease-in;
   -moz-transition: -moz-transform 500ms linear, box-shadow 500ms ease-in, background-color 250ms ease-in;
   -ms-transition: -ms-transform 500ms linear, box-shadow 500ms ease-in, background-color 250ms ease-in;
@@ -455,8 +449,8 @@ hr{
 }
 
 #access a:hover, #access #menu a:hover, #access a.skip-link.focus, #access #menu a.skip-link.focus, #menu li a:hover {
-  background-color: #fff;
-  color:  #4394a3;
+  background-color: #238b9f;
+  color:  white;
   transition: 0s;
   border-bottom: 3px solid #4394a3;
   transition: 0.3s;
